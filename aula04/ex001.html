@@ -27,6 +27,7 @@
         
         header nav {
             text-align: right;
+            padding: 5px;
         }
 
         header a {
@@ -34,8 +35,14 @@
             padding: 8px;
             font-size: 20px;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            
+            text-decoration: none;            
         }
+
+        header a:hover {
+            text-decoration: underline;
+            color: black;
+        }
+        
     </style>
 
 </head>
@@ -44,19 +51,20 @@
     <header>
         <h1>Aprendendo JavaScript</h1>
         <nav>
-            <a href="">Já</a>
-            <a href="">Sei</a>
-            <a href="">HTML e CSS</a>
+            <a href="#">Já</a>
+            <a href="#">Sei</a>
+            <a href="#">HTML e CSS</a>
         </nav>
     </header>
 
 
     <script>
-        
         window.alert('Minha primeira mensagem'); //Janela com alerta
         window.confirm('Está gostando de JavaScript?'); // Janela com botão de OK e Cancel
         window.prompt('Qual é seu nome?'); //vai perguntar o nome
-                
+        
+        
+            
     </script>
 </body>
 </html>
