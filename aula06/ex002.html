@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }    
+        
+
+        body {
+
+        }
+        header {
+            background-color: purple;
+        }
+
+        header h1 {
+            text-align: center;
+            padding: 10px;
+            font-family: monospace;
+        }
+        
+        header nav {
+            text-align: right;
+            padding: 5px;
+        }
+
+        header a {
+            color: rgba(245, 245, 245, 0.918);
+            padding: 8px;
+            font-size: 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-decoration: none;            
+        }
+
+        header a:hover {
+            text-decoration: underline;
+            color: black;
+        }
+        
+    </style>
+
+</head>
+<body>
+    
+    <header>
+        <h1>Aprendendo JavaScript</h1>
+        <nav>
+            <a href="#">Já</a>
+            <a href="#">Sei</a>
+            <a href="#">HTML e CSS</a>
+        </nav>
+    </header>
+
+
+    <script>
+        var nome = window.prompt('Qual é seu nome?'); //vai perguntar o nome
+        window.alert('É um prazer te conhecer '+ nome + ' !')//concatenação
+        window.alert('Você irá fazer parte do nosso projeto.')
+        window.confirm('Mas..., esse é o seu nome mesmo?')
+        var tel = window.prompt('Qual o seu telefone?, pra..., enfim')
+        window.alert('hehe, valeu pelo seu telefone ' + tel + '.' + ' O grande amor da minha vida se chama ' + nome  )
+        
+        
+        
+            
+    </script>
+</body>
+</html>
